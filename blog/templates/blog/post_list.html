@@ -4,12 +4,9 @@
 </head>
 <body>
   <div>
-       <p>Hi there!</p>
-       <p>It works!</p>
-  </div>
-
-  <div>
-       <h2> My first post! </h2>
+    {% for post in posts %}
+     {{ post }}
+ {% endfor %}
   </div>
 
 </body>
